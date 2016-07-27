@@ -2,7 +2,7 @@ Package.describe({
   name:     'ksrv:system-messages',
   version:  '0.0.1',
   summary:  'Simple solution for meteor system messages',
-  git: '',
+  git: 'https://github.com/ksrv/system-messages.git',
   documentation: 'README.md'
 });
 
