@@ -97,6 +97,8 @@ if(Meteor.isClient){
             message.userId = Meteor.userId();
         }
 
+        delete message._id;
+
         SysMessages.insert(message);
     }
 
